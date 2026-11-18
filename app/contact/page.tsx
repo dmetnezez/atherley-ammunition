@@ -9,10 +9,10 @@ export default function Contact() {
         <p>
           Email:{" "}
           <a
-            href="mailto:danielatherley2@gmail.com"
+            href="mailto:Daniel.Ather@Gmail.com"
             style={{ color: "var(--forest-700)", textDecoration: "underline" }}
           >
-            danielatherley2@gmail.com
+            Daniel.Ather@Gmail.com
           </a>
         </p>
       </div>

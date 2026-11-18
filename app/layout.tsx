@@ -5,7 +5,7 @@ import AgeGate from "@/components/AgeGate";
 
 export const metadata: Metadata = {
   title: { default: "Atherley Ammunition", template: "%s | Atherley Ammunition" },
-  description: "Dependable ammunition for the range and the field.",
+  description: "Canadian-made 9mm and 5.56 ammunition.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -13,6 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <AgeGate />
+        <div className="topbar">Proudly Canadian made</div>
         <header className="site-header">
           <div className="container">
             <Link href="/" className="logo">
@@ -29,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="container">
             <span className="logo">Atherley Ammunition</span>
-            <div>Quality you can count on.</div>
+            <div>Canadian-made 9mm and 5.56 ammunition.</div>
             <p className="legal">
               Sales are restricted to customers of legal age with the required licences for their
               jurisdiction. Replace this notice with your own compliance and shipping terms.

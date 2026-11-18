@@ -1,13 +1,14 @@
 import type { Product } from "./types";
 
-// Placeholder catalogue. Replace with your real products and pricing,
-// or set the Shopify env vars and this file is no longer used.
+// Placeholder catalogue (9mm and 5.56 only).
+// To change a price, edit the `price` number below, commit, and Vercel redeploys.
+// Once Shopify is connected, prices come from Shopify instead and this file is unused.
 export const localProducts: Product[] = [
   {
     id: "local-1",
-    handle: "9mm-fmj-50",
-    title: "9mm FMJ, 115 gr",
-    description: "Range-grade full metal jacket. Box of 50.",
+    handle: "9mm-fmj-115-50",
+    title: "9mm FMJ, 115 gr, 50 rounds",
+    description: "Range-grade full metal jacket. Made in Canada.",
     caliber: "9mm",
     price: 24.99,
     currency: "CAD",
@@ -15,31 +16,31 @@ export const localProducts: Product[] = [
   },
   {
     id: "local-2",
-    handle: "223-rem-fmj-20",
-    title: ".223 Rem FMJ, 55 gr",
-    description: "Consistent, clean-burning target ammunition. Box of 20.",
-    caliber: ".223 Rem",
-    price: 21.99,
+    handle: "9mm-fmj-115-250",
+    title: "9mm FMJ, 115 gr, 250 rounds",
+    description: "Bulk pack for the range. Made in Canada.",
+    caliber: "9mm",
+    price: 114.99,
     currency: "CAD",
     available: true,
   },
   {
     id: "local-3",
-    handle: "12ga-birdshot-25",
-    title: "12 Gauge Birdshot, #7.5",
-    description: "2 3/4 inch field load for clays and small game. Box of 25.",
-    caliber: "12 gauge",
-    price: 17.99,
+    handle: "556-fmj-55-20",
+    title: "5.56 FMJ, 55 gr, 20 rounds",
+    description: "Consistent, clean-burning target ammunition. Made in Canada.",
+    caliber: "5.56",
+    price: 21.99,
     currency: "CAD",
-    available: false,
+    available: true,
   },
   {
     id: "local-4",
-    handle: "308-win-soft-point-20",
-    title: ".308 Win Soft Point, 150 gr",
-    description: "Dependable hunting load. Box of 20.",
-    caliber: ".308 Win",
-    price: 39.99,
+    handle: "556-fmj-55-100",
+    title: "5.56 FMJ, 55 gr, 100 rounds",
+    description: "Value pack for regular shooters. Made in Canada.",
+    caliber: "5.56",
+    price: 99.99,
     currency: "CAD",
     available: true,
   },

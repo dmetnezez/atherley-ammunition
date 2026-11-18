@@ -36,6 +36,18 @@ a { color: inherit; text-decoration: none; }
 
 .container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 
+/* Top bar */
+.topbar {
+  background: var(--brass);
+  color: var(--forest-950);
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+}
+
 /* Header */
 .site-header {
   background: var(--forest-900);

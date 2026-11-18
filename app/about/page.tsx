@@ -9,13 +9,13 @@ export default function About() {
           I'm a young entrepreneur making bullets in Canada, for Canadians.
         </p>
         <p>
-          Apex Ammunition started with a simple idea: Canadian shooters should be able to buy
+          Ather Ammunition started with a simple idea: Canadian shooters should be able to buy
           quality ammunition that is actually made here at home. I keep the range focused on two
           calibers, 9mm and 5.56, so I can put my full attention on making every box consistent
           and dependable.
         </p>
         <p style={{ marginTop: 16 }}>
-          When you buy from Apex, you're backing a Canadian-made product and a young Canadian
+          When you buy from Ather, you're backing a Canadian-made product and a young Canadian
           business. Thank you for the support.
         </p>
       </div>

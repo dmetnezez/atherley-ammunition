@@ -4,7 +4,7 @@ import Link from "next/link";
 import AgeGate from "@/components/AgeGate";
 
 export const metadata: Metadata = {
-  title: { default: "Atherley Ammunition", template: "%s | Atherley Ammunition" },
+  title: { default: "Apex Ammunition", template: "%s | Apex Ammunition" },
   description: "Canadian-made 9mm and 5.56 ammunition.",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="container">
             <Link href="/" className="logo">
-              Atherley <span>Ammunition</span>
+              Apex <span>Ammunition</span>
             </Link>
             <nav className="nav">
               <Link href="/products">Shop</Link>
@@ -29,13 +29,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <footer className="site-footer">
           <div className="container">
-            <span className="logo">Atherley Ammunition</span>
+            <span className="logo">Apex Ammunition</span>
             <div>Canadian-made 9mm and 5.56 ammunition.</div>
             <p className="legal">
               Sales are restricted to customers of legal age with the required licences for their
               jurisdiction.
             </p>
-            <p className="legal">© {new Date().getFullYear()} Atherley Ammunition</p>
+            <p className="legal">© {new Date().getFullYear()} Apex Ammunition</p>
           </div>
         </footer>
       </body>

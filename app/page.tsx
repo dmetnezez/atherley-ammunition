@@ -32,7 +32,7 @@ export default async function Home() {
 
       <section className="section section-dark">
         <div className="container">
-          <h2>Why Atherley</h2>
+          <h2>Why Apex</h2>
           <p className="lede">Three things we will not compromise on.</p>
           <div className="values">
             <div className="value"><h3>Made in Canada</h3><p>Manufactured here at home, by Canadians, for Canadian shooters.</p></div>

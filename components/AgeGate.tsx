@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const KEY = "atherley-age-ok";
+const KEY = "apex-age-ok";
 
 export default function AgeGate() {
   const [show, setShow] = useState(false);

@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>Canadian-made 9mm and 5.56 ammunition.</div>
             <p className="legal">
               Sales are restricted to customers of legal age with the required licences for their
-              jurisdiction. Replace this notice with your own compliance and shipping terms.
+              jurisdiction.
             </p>
             <p className="legal">© {new Date().getFullYear()} Atherley Ammunition</p>
           </div>
